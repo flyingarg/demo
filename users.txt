@@ -1,3 +1,0 @@
-linus,root,bronze
-ken,p/q2-q4!a,silver
-dennis,dmac,gold
