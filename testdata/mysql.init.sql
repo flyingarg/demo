@@ -1,13 +1,12 @@
-create database demo
-truncate demo.user_details;
-truncate demo.tokens;
-truncate demo.requests;
+drop database demo;
+create database demo;
+use demo;
 create table user_details(
                              id mediumint not null auto_increment,
                              username varchar(50),
                              plan varchar(10),
                              PRIMARY KEY (id),
-                             UNIQUE KEY 'username' (username)
+                             UNIQUE KEY  (username)
 );
 
 create table tokens(
