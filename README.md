@@ -61,3 +61,32 @@ Images need to be stored in file system.
         
 ## Tables
 refer testdata/mysql.init.sql
+
+## Build
+```buildoutcfg
+    $ make clean
+    $ make build
+```
+
+## Test
+Integration test cases are added to testdata. 
+
+* Database setup
+Reset/Create a fresh mysql database called demo with data and tables initialized
+```buildoutcfg
+    $ bash mysql.init.sql
+```
+
+* Test the application
+Run the application using 
+```buildoutcfg
+    $ ./bin/demoservice
+```
+Once the application is running, use the test_json.py and test_xml.py to perform integration "tests".
+These scripts, hit the server, perform a login, which provides the access tokens. Then these application use the data 
+files to perform requests on the server. These can be run using the commands
+```buildoutcfg
+    $ cd testdata
+    $ python test_json.py
+```
+

@@ -1,3 +1,4 @@
+create database demo
 truncate demo.user_details;
 truncate demo.tokens;
 truncate demo.requests;
