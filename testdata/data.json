@@ -1,0 +1,18 @@
+{
+	"id": "",
+	"items": [{
+		"id": "",
+		"name": "Tomato Soup",
+		"manufacturer": "Nestle",
+		"brand": "Knor Soups",
+		"category": "Ready to Eat Foods",
+		"images": [{
+			"url": "https://golang.org/lib/godoc/images/go-logo-blue.svg",
+			"id": "",
+			"status": false,
+			"error": ""
+		}],
+		"status": false
+	}],
+	"status": false
+}

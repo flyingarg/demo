@@ -1,0 +1,7 @@
+#!/bin/bash
+export DEMOAPP_TOKEN_EXPIRY=3600
+export DEMOAPP_DB_USERNAME=root
+export DEMOAPP_DB_PASSWORD=root
+export DEMOAPP_DB_DATABASE=demo
+export DEMOAPP_DB_HOSTNAME=127.0.0.1
+export DEMOAPP_FS_IMAGE_LOC=/tmp

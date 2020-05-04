@@ -1,0 +1,18 @@
+<Request>
+    <id></id>
+    <items>
+        <id></id>
+        <name>Tomato Soup</name>
+        <manufacturer>Nestle</manufacturer>
+        <brand>Knor Soups</brand>
+        <category>Ready to Eat Foods</category>
+        <images>
+            <url>https://golang.org/lib/godoc/images/go-logo-blue.svg</url>
+            <id></id>
+            <status>false</status>
+            <error></error>
+        </images>
+        <status>false</status>
+    </items>
+    <status>false</status>
+</Request>
